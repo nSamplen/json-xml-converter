@@ -1,0 +1,37 @@
+[1;31m
+Start test 1[0m
+{
+	"employee" : {
+		"@department" : "manager",
+		"#employee" : "Garry Smith"
+	}
+
+}
+[1;31m
+Start test 2[0m
+{
+	"person" : {
+		"@rate" : "1",
+		"@name" : "Torvalds",
+		"#person" : null
+	}
+
+}
+[1;31m
+Start test 3[0m
+7<employee department="manager">Garry Smith</employee>
+[1;31m
+Start test 4[0m
+$<person rate="1" name="Torvalds"/>
+[1;31m
+Start test 5[0m
+<pizza size="20">123</pizza>
+[1;31m
+Start test 6[0m
+{
+	"pizza" : {
+		"@size" : "20",
+		"#pizza" : "123"
+	}
+
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ConverterTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-12T22:30:15" hostname="LAPTOP-78HS8G0I" time="1.137">
+  <properties/>
+  <testcase name="start" classname="ConverterTest" time="1.137"/>
+  <system-out><![CDATA[?[1;31m
+Start test 1?[0m
+{
+	"employee" : {
+		"@department" : "manager",
+		"#employee" : "Garry Smith"
+	}
+
+}
+?[1;31m
+Start test 2?[0m
+{
+	"person" : {
+		"@rate" : "1",
+		"@name" : "Torvalds",
+		"#person" : null
+	}
+
+}
+?[1;31m
+Start test 3?[0m
+<employee department="manager">Garry Smith</employee>
+?[1;31m
+Start test 4?[0m
+<person rate="1" name="Torvalds"/>
+?[1;31m
+Start test 5?[0m
+<pizza size="20">123</pizza>
+?[1;31m
+Start test 6?[0m
+{
+	"pizza" : {
+		"@size" : "20",
+		"#pizza" : "123"
+	}
+
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
